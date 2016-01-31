@@ -1,0 +1,3 @@
+<!-- BEGIN_INCLUDE(mule-agent:greet) -->
+    <mule-agent:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(mule-agent:greet) -->
